@@ -176,7 +176,7 @@ li, ul, a {
     background-position: center;
     background-attachment: scroll;
 }
-/*_________________________________SECTION 1__________________________________*/
+/*_________________________________SECTION 1 left aligned__________________________________*/
 .container4 {
     max-width: 1770px;
     min-height: 700px;
@@ -185,9 +185,10 @@ li, ul, a {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
+
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
 
 }
 
@@ -195,13 +196,14 @@ li, ul, a {
         background-color: rgba(0, 0, 0, 0.751);
         width: 543px;
         height: 374px;
-        padding: 20px;
+        padding: 30px;
         margin: 20px;
+        margin-left: 50px;
 
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        align-items: center;
+        align-items: flex-start;
     }
         .container4--h3, .container5--h3  {
             color: #E8E8E8;
@@ -236,7 +238,7 @@ li, ul, a {
             line-height: 26px;
             }
 
-/*_________________________________SECTION 2__________________________________*/
+/*_________________________________SECTION 2 right aligned__________________________________*/
 .container5 {
     max-width: 1770px;
     min-height: 700px;
@@ -245,20 +247,24 @@ li, ul, a {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
+
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
 
 }
     .container5__item1 {
         background-color: rgba(0, 0, 0, 0.751);
         width: 543px;
         height: 374px;
+        padding: 30px;
+        margin: 20px;
+        margin-right: 50px;
 
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        align-items: center;
+        align-items: flex-start;
     }
 
 /*_______________________________TESTIMONIAL________________________________*/
@@ -350,7 +356,6 @@ li, ul, a {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -359,8 +364,6 @@ li, ul, a {
         max-width: 200px;
         min-height: 150px;
         width:100%;
-        background-color: rgb(255, 0, 195);
-
         display: flex;
         flex-direction: column;
         justify-content: center;
