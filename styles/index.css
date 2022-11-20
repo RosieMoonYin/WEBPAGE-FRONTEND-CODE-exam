@@ -51,6 +51,111 @@ li, ul, a {
           align-items: center;
 }
 
+/*_________FORM INPUT___________*/
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 753px;
+  min-height: 63px;
+  width: 100%;
+  margin-left: 200px;
+  border-radius: none;
+}
+
+.form__item1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form__input {
+  padding: 10px;
+  max-width: 600px;
+  min-height: 63px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+input {
+  text-decoration: none;
+  border: none;
+}
+
+.form__input--styles {
+  font-family: "Josefin Sans", sans-serif;
+  border-radius: none;
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  border: 2px;
+}
+
+.form__input:hover {
+  opacity: 0.7;
+}
+
+.form__item2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 153px;
+  height: 63px;
+}
+
+.form__button--styles {
+  font-family: "Aleo", serif;
+  border-radius: none;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+  background-color: #5474FD;
+  color: white;
+  border: white;
+  border: 2px;
+}
+
+.fa-solid, .fa-magnifying-glass {
+  margin-left: 2px;
+}
+
+.form__button:hover {
+  font-weight: 600;
+  background-color: #6c84f1;
+  -webkit-box-shadow: #333333;
+          box-shadow: #333333;
+  -webkit-box-shadow: 4px;
+          box-shadow: 4px;
+}
+
 .container1--h1 {
   color: white;
   font-family: "Josefin Sans", sans-serif;
@@ -135,8 +240,8 @@ li, ul, a {
 }
 
 .nav__hover:hover {
-  background-color: #ffffff;
-  color: #EEA200;
+  background-color: #333333;
+  color: #FEFEFE;
   padding: 24px 10px;
 }
 
