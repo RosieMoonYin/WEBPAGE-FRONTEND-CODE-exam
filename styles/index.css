@@ -51,6 +51,22 @@ li, ul, a {
           align-items: center;
 }
 
+.container1__itemscroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 /*_________FORM INPUT___________*/
 .form {
   display: -webkit-box;
@@ -240,7 +256,7 @@ input {
 }
 
 .nav__hover:hover {
-  background-color: #333333;
+  background-color: #6c84f1;
   color: #FEFEFE;
   padding: 24px 10px;
 }
@@ -305,6 +321,10 @@ input {
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
+}
+
+.container2--btn:hover {
+  background-color: #6c84f1;
 }
 
 .container2__item2 {
@@ -411,7 +431,7 @@ input {
 
 .container4--btn, .container5--btn {
   color: #E8E8E8;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Aleo", serif;
   background-color: #5474FD;
   width: 228px;
   height: 63px;
@@ -419,6 +439,10 @@ input {
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
+}
+
+.container4--btn:hover, .container5--btn:hover {
+  background-color: #6c84f1;
 }
 
 /*_________________________________SECTION 2 right aligned__________________________________*/
@@ -654,4 +678,8 @@ input {
   display: flex;
   color: white;
   padding: 10px;
+}
+
+.foot--hover:hover {
+  color: grey;
 }

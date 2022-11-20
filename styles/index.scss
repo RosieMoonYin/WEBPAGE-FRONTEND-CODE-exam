@@ -38,6 +38,12 @@ li, ul, a {
         justify-content: center;
         align-items: center;
     }
+    .container1__itemscroll {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
     /*_________FORM INPUT___________*/
     .form {
@@ -182,8 +188,8 @@ li, ul, a {
             margin: 0 10px;
           }
           .nav__hover:hover {
-            background-color: #333333;
-            color: #FEFEFE;
+            background-color:#6c84f1;
+            color:#FEFEFE;
             padding: 24px 10px;
           }
 
@@ -236,6 +242,9 @@ li, ul, a {
             font-weight: 400;
             font-size: 14px;
             line-height: 26px;
+        }
+        .container2--btn:hover {
+            background-color: #6c84f1;
         }
 
     .container2__item2 {
@@ -318,7 +327,7 @@ li, ul, a {
         }
         .container4--btn, .container5--btn {
             color: #E8E8E8;
-            font-family: $second-font;
+            font-family: $main-font;
             background-color: #5474FD;
             width: 228px;
             height:63px;
@@ -326,6 +335,9 @@ li, ul, a {
             font-weight: 400;
             font-size: 14px;
             line-height: 26px;
+            }
+            .container4--btn:hover, .container5--btn:hover {
+                background-color: #6c84f1;
             }
 
 /*_________________________________SECTION 2 right aligned__________________________________*/
@@ -478,4 +490,7 @@ li, ul, a {
             display: flex;
             color: white;
             padding: 10px;
+            }
+            .foot--hover:hover {
+                color: grey;
             }
